@@ -6,6 +6,7 @@ export default defineConfig({
   title: "编程笔记",
   description: "编程笔记",
   srcDir: "./docs",
+  base: "/program-docs",
 
   themeConfig: {
     search: {
