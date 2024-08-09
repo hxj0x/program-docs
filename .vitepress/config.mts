@@ -6,7 +6,11 @@ export default defineConfig({
   title: "编程笔记",
   description: "编程笔记",
   srcDir: "./docs",
+
   themeConfig: {
+    search: {
+      provider: "local",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
