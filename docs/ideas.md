@@ -14,5 +14,8 @@
     * idea远程debug
     * 利用java的debug协议追踪代码执行路径
 * e2e测试
+* tanstack 设配thin-jsx是否可行
+* 让thin-jsx的ui可以通过dom节点进行绑定，不直接生成dom节点？
+* 数据模型驱动的API测试工具
 
 
