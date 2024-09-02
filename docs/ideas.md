@@ -1,6 +1,7 @@
 # 想法
 
 * codemirror实现一键代码折叠，自定义折叠内容
+* 比如排序的时候，只展示排序字段？
 * codemirror的代码提示可以参考谷歌，或使用第三方的扩展json Schema？
 * 移动对象位置，hover字段名时显示字段注释
 * codemirror Scroll to the specified row
