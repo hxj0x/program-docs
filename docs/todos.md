@@ -15,6 +15,7 @@
 * mybatis在java字符串中的`#{}`自动补全，`<foreach>`等标签的自动补全,跳转到sqlprovider方法，没找到就报错，开发一个idea插件
     * resultMap从xml转到注解
 * 扩展camunda，增加json变量查询？
+* mybatis的xml的尖括号解析问题
 
 ## 文章
 
