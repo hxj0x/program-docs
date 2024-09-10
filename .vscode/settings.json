@@ -19,6 +19,7 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.codeActionsOnSave": {
     "source.addMissingImports": "explicit",
     "source.organizeImports": "explicit"
@@ -31,23 +32,31 @@
   "editor.fontSize": 18,
   "editor.fontWeight": "300",
   "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
   "editor.guides.indentation": true,
   "editor.inlineSuggest.enabled": true,
+  // "editor.lineNumbers": "interval",
+  "editor.linkedEditing": true,
+  // "editor.language.colorizedBracketPairs": [
+  //   ["<", "</"],
+  //   ["<", "/>"]
+  // ],
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
     "strings": true
   },
-  // "editor.lineNumbers": "interval",
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
   // "editor.smoothScrolldding": true,
   "editor.stickyScroll.enabled": true,
   "editor.suggest.insertMode": "replace",
   "editor.wordWrap": "on",
   "errorLens.fontStyleItalic": true,
+  "javascript.preferences.importModuleSpecifier": "shortest",
   "markdown.copyFiles.destination": {
     // markdown文件的默认位置
     "**/*.md": "assets/${documentBaseName}/${fileName}"
   },
+  "scm.experimental.showHistoryGraph": true,
   "sortJSON.orderOverride": [
     "name",
     "version",
@@ -71,7 +80,11 @@
     "cSpell.userWords"
   ],
   "tailwindCSS.classAttributes": ["class", "className", "classList", "ngClass"],
-  "tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
   "vim.foldfix": true,
   "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
   "vim.highlightedyank.enable": true,
@@ -81,17 +94,6 @@
   "vim.useSystemClipboard": true,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "readme",
-  "zenMode.hideLineNumbers": false,
   "workbench.tree.enableStickyScroll": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairs": "active",
-  // "editor.language.colorizedBracketPairs": [
-  //   ["<", "</"],
-  //   ["<", "/>"]
-  // ],
-  "editor.matchBrackets": "always",
-  "scm.experimental.showHistoryGraph": true,
-  "javascript.preferences.importModuleSpecifier": "shortest",
-  "typescript.preferences.importModuleSpecifier": "shortest",
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "zenMode.hideLineNumbers": false
 }
