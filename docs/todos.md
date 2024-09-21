@@ -16,7 +16,7 @@
     * resultMap从xml转到注解
 * 扩展camunda，增加json变量查询？
 * mybatis的xml的尖括号解析问题
-
+* react fast context as root context
 ## 文章
 
 * sql的like关键字补全问题
