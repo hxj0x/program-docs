@@ -16,6 +16,7 @@
     * resultMap从xml转到注解
 * 扩展camunda，增加json变量查询？
 * mybatis的xml的尖括号解析问题
+* react fast context as root context
 * idea插件支持，如何复制的是变量名，就自动加号拼接 例如 t("from ", ACT_RU_TASK, "RES");
 
 ## 文章
