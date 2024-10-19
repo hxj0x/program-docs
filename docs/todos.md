@@ -19,7 +19,7 @@
 * react fast context as root context
 * idea插件支持，如何复制的是变量名，就自动加号拼接 例如 t("from ", ACT_RU_TASK, "RES");
 * 依赖自动更新，分组合并所有更新的依赖
-* xmind支持嵌入代码编辑器
+* xmind支持嵌入代码编辑器，基于x6或react flow 或 bpmnJs
 
 ## 文章
 
