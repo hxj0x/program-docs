@@ -5,7 +5,7 @@
 netstat -tulpn | grep 5005
 
 # 根据进程id查看程序部署位置
-ls -l /proc/27320/cwd
+ls -l /proc/40615/cwd
 
 # 
 ```
