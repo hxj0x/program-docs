@@ -21,6 +21,7 @@
 * 依赖自动更新，分组合并所有更新的依赖
 * xmind支持嵌入代码编辑器，基于x6或react flow 或 bpmnJs 或 https://github.com/didi/LogicFlow
 * 基于json schema的工作流表单校验？
+* sql优化
 
 ## 文章
 
