@@ -20,6 +20,7 @@
 * idea插件支持，如何复制的是变量名，就自动加号拼接 例如 t("from ", ACT_RU_TASK, "RES");
 * 依赖自动更新，分组合并所有更新的依赖
 * xmind支持嵌入代码编辑器，基于x6或react flow 或 bpmnJs 或 https://github.com/didi/LogicFlow
+   * https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/foreignObject，可以看下是否能通过这个实现嵌入html，对diagram-js，不行是用logicFlow，自动布局可以参考bpmn-js做简单的
 * 基于json schema的工作流表单校验？
 * sql优化
 * mermaid 结合 excalidraw 实现可拖动
