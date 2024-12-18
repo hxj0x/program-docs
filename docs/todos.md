@@ -22,6 +22,7 @@
 * xmind支持嵌入代码编辑器，基于x6或react flow 或 bpmnJs 或 https://github.com/didi/LogicFlow
 * 基于json schema的工作流表单校验？
 * sql优化
+* mermaid 结合 excalidraw 实现可拖动
 
 ## 文章
 
