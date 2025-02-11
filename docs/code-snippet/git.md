@@ -14,3 +14,8 @@ git config --local --unset https.proxy
 git config --local user.email "xxx@qq.com"
 git config --local user.name "xxx"
 ```
+
+```shell
+# 移动硬盘git权限问题处理
+git config --global --add safe.directory "*"
+```
