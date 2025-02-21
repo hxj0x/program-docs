@@ -24,6 +24,8 @@
 * 基于json schema的工作流表单校验？
 * sql优化
 * mermaid 结合 excalidraw 实现可拖动
+* idea插件开发如何为java的某个字段增加跳转到其他类相同字段的功能
+* xyflow实现可视化实体？
 
 ## 文章
 
