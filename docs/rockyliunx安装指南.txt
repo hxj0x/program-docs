@@ -1,0 +1,64 @@
+安装前tab编辑，空格+inst.xtimeout=600
+
+换源  https://www.rockylinux.cn/download
+
+sed -e 's|^mirrorlist=|#mirrorlist=|g' \
+    -e 's|^#baseurl=http://dl.rockylinux.org/$contentdir|baseurl=https://mirrors.aliyun.com/rockylinux|g' \
+    -i.bak \
+    /etc/yum.repos.d/rocky*.repo
+ 
+# 生成缓存
+dnf makecache
+
+#恢复官方仓库源
+sed -e 's|^#mirrorlist=|mirrorlist=|g' \
+    -e 's|^baseurl=https://mirrors.aliyun.com/rockylinux|#baseurl=http://dl.rockylinux.org/$contentdir|g' \
+    -i.bak \
+    /etc/yum.repos.d/rocky*.repo
+ 
+# 生成缓存
+dnf makecache
+
+
+https://www.cnblogs.com/alexlv/p/17640501.html
+
+
+   42  rpm -Uvh https://repo.zabbix.com/zabbix/7.0/centos/9/x86_64/zabbix-release-latest-7.0.el9.noarch.rpm
+   43  dnf clean all
+   44  dnf install zabbix-server-pgsql zabbix-web-pgsql zabbix-nginx-conf zabbix-sql-scripts zabbix-selinux-policy zabbix-agent
+   45  cd /usr/local/
+   46  ls
+   47  ps -ef | grep nginx
+   48  cat /etc/zabbix/zabbix_server.conf
+   49  pwd
+   50  ls
+   51  clear
+   52  dnf install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-9-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+   53  dnf -qy module disable postgresql
+   54  sudo dnf install -y postgresql17-server
+   55  /usr/pgsql-17/bin/postgresql-17-setup initdb
+   56  systemctl enable postgresql-17
+   57  systemctl start postgresql-17
+   58  psql -d demo
+   59  psql
+   60  sudo -i -u postgres
+   61  sudo -u postgres createuser --pwprompt zabbix
+   62  sudo -u postgres createdb -O zabbix zabbix
+   63  zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+   64  vim  /etc/zabbix/zabbix_server.conf
+   65  vim /etc/nginx/conf.d/zabbix.conf
+   66  systemctl restart zabbix-server zabbix-agent nginx php-fpm
+   67  systemctl enable zabbix-server zabbix-agent nginx php-fpm
+   68   localectl list-locales | grep zh
+   69   localectl list-locales
+   70  echo 中文
+   71  dnf install  glibc-langpack-zh.x86_64
+   72   localectl list-locales
+   73  free -h
+   74  history
+
+
+https://blog.csdn.net/a654540233/article/details/115458860
+
+
+psql -h 192.168.29.129 -U postgres
