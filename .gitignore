@@ -2,4 +2,5 @@ node_modules
 .vitepress/cache/
 .vitepress/dist/
 docs/days
+.idea
 docs/private
