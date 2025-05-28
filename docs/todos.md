@@ -26,7 +26,7 @@
 * mermaid 结合 excalidraw 实现可拖动
 * idea插件开发如何为java的某个字段增加跳转到其他类相同字段的功能
 * xyflow实现可视化实体？
-
+* xyflow实现类似bpmnJs的自动增减拐点和平移线段的功能，可以先把“xyflow”自定义线段和“bpmnJs拐点”的代码都喂给AI
 ## 文章
 
 * sql的like关键字补全问题
