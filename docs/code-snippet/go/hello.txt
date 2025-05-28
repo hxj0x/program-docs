@@ -1,0 +1,20 @@
+golang的代码组织方式
+    package Modules
+如何运行golang代码
+    go run hello.go
+程序入口
+    package main
+    Func main() {
+        fmt.Println("hello world")
+    }
+    获取命令行参数： os.Args[1:]
+    退出码：os.Exit(1)
+数据类型
+    没有隐式的类型转换
+    值类型、引用类型
+    支持指针但不支持指针运算
+变量默认值
+    都是是什么，string类型默认值是""
+    nil
+go的测试入门流程
+    表格测试法
