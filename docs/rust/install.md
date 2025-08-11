@@ -6,7 +6,7 @@
 
 ```powershell
 # 设置环境变量
-[System.Environment]::SetEnvironmentVariable("RUSTUP_UPDATE_ROOT", "https://rsproxy.cn/rustup", "Machine")
+[System.Environment]::SetEnvironmentVariable("RUSTUP_DIST_SERVER", "https://rsproxy.cn", "Machine")
 [System.Environment]::SetEnvironmentVariable("RUSTUP_UPDATE_ROOT", "https://rsproxy.cn/rustup", "Machine")
 ```
 
